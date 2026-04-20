@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Entwurf einer provisorischen Verfassung</title>
+        <!-- Kein Autor namentlich bekannt; Dokument entstand vermutlich 1918
+             im Kontext der Auflösung der Österreichisch-Ungarischen Monarchie -->
+      </titleStmt>
+      <publicationStmt>
+        <p>Unveröffentlichtes Manuskript; Transkription für akademische Zwecke.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Unbekannt</repository>
+            <idno>–</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              Handschriftlicher Entwurf einer provisorischen Verfassung für
+              den deutschösterreichischen Staat nach dem Zerfall der
+              Österreichisch-Ungarischen Monarchie (ca. 1918).
+            </summary>
+            <textLang mainLang="de">Deutsch</textLang>
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <handNote xml:id="H1" scope="sole" medium="ink">
+                Eine Schreiberhand; zahlreiche interlineare und marginale
+                Korrekturen (Streichungen und Einfügungen).
+              </handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="document">
+        <head rend="underline">Entwurf einer provisorischen Verfassung.</head>
+        <div type="preamble">
+          <p>
+            Wir freigewählten Abgeordeten, Kraft des allge<metamark function="join">´</metamark>meinen und gleichen
+            Stimmrechts zur Zeit allein befugten <add place="inline" hand="#H1">[Zusatz: und gesetzlichen]</add>
+            Vertreter des deutschen Volkes der bisherigen im Reichsrat
+            vertretenen Königreiche und Länder der Oester<metamark function="join">´</metamark>reichisch<del rend="strikethrough">ß</del>Ungarischen
+            Monarchie haben uns infolge der allgemeinen Auflösung des Staates und
+            der völligen
+            <subst>
+              <del rend="strikethrough">Unfrue</del>
+              <add place="inline" hand="#H1">Unhaltbarkeit</add>
+            </subst>
+            seiner Verfassung,
+            <del rend="strikethrough">und</del>
+            nachdem sich alle übrigen
+            <hi rend="underline">Naturren</hi>
+            <unclear reason="illegible">[?]</unclear>
+            der Monarchie von dem bisherigen, auf der pragmatischen Sanktion
+            ruhenden <unclear reason="illegible">[?]</unclear>
+            Länder<unclear reason="illegible">[" "]verbende</unclear>
+            <unclear reason="illegible">[?]</unclear>
+            losgesagt haben, und da
+            <del rend="strikethrough">da</del>
+            unser Volk auf sich selbst und allein angewiesen ist, in der Not
+            des Krieges zu einer
+            provis<subst>
+              <del rend="strikethrough">ß</del>
+              <add place="above" hand="#H1">s</add>
+            </subst>orischen
+            Nationalversammlung
+            zusam<metamark function="join">´</metamark>menge<subst>
+              <del rend="strikethrough">schlossen</del>
+              <add place="above" hand="#H1">tan</add>
+            </subst>
+            und für unser Volk und Land die nachstehende provisorische
+            Verfassung beschlossen:
+          </p>
+        </div>
+        <div type="title">
+          <head rend="center">Erster Titel.</head>
+          <head rend="center">
+            Vom Namen, Wesen und
+            <subst>
+              <del rend="strikethrough">Wappen</del>
+              <add place="above" hand="#H1">Zeichen</add>
+            </subst>
+            des Staates
+          </head>
+        </div>
+        <div type="section" n="1">
+          <head>§i</head>
+          <p>
+            Die <unclear reason="illegible">[unlesbar]</unclear>.
+          </p>
+        </div>
+ 
+      </div><!-- /document -->
+    </body>
+  </text>
+ 
+</TEI>
